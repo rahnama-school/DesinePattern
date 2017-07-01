@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DesinePattern
 {
-    interface IShape
+    public interface IShape
     {
         void draw();
 
