@@ -6,7 +6,7 @@ namespace DesinePattern
     {
         public void draw()
         {
-            Console.WriteLine("rec draw");
+            Console.WriteLine("draw by Rectangle");
         }
     }
 }
