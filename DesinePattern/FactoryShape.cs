@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace DesinePattern
+﻿namespace DesinePattern
 {
-  public  class FactoryShape
+    public  class FactoryShape
     {
         public enum shaypeType
         {
