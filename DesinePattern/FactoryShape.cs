@@ -1,6 +1,6 @@
 ﻿namespace DesinePattern
 {
-    public  class FactoryShape
+    public class FactoryShape
     {
         public enum shaypeType
         {
@@ -11,13 +11,11 @@
 
         public static IShape GetsShape(shaypeType shaype)
         {
-            if(shaype==shaypeType.Cricle)
+            if (shaype == shaypeType.Cricle)
                 return new Cricle();
             if (shaype == shaypeType.Rectangle)
                 return new Rectangle();
             return null;
         }
-
-
     }
 }

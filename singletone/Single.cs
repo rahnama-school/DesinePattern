@@ -1,4 +1,5 @@
 ﻿using System;
+
 //کلاس سینگلتون
 namespace singletone
 {
@@ -11,20 +12,18 @@ namespace singletone
         {
             Console.WriteLine("get instatcw 1");
         }
+
         public static Single GetSingle
         {
             get
-            { 
+            {
                 lock (padlock)
                 {
                     if (instance == null)
-                        instance= new Single();
+                        instance = new Single();
                     return instance;
                 }
-              
             }
-
-
         }
     }
 }
