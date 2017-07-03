@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesinePattern", "DesinePatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "singletone", "singletone\singletone.csproj", "{A556CE83-0CFD-45F8-A690-EDB14A5E227D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern_implemente", "AbstractFactoryPattern_implemente\AbstractFactoryPattern_implemente.csproj", "{53378F0D-1AEA-4C54-8C90-24C3B02BED1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A556CE83-0CFD-45F8-A690-EDB14A5E227D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A556CE83-0CFD-45F8-A690-EDB14A5E227D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A556CE83-0CFD-45F8-A690-EDB14A5E227D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53378F0D-1AEA-4C54-8C90-24C3B02BED1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53378F0D-1AEA-4C54-8C90-24C3B02BED1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53378F0D-1AEA-4C54-8C90-24C3B02BED1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53378F0D-1AEA-4C54-8C90-24C3B02BED1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
